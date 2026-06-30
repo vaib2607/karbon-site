@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Process from './components/Process';
@@ -14,6 +15,7 @@ export default function App() {
       <Process />
       <SiteMockup />
       <Roadmap />
+      <SpeedInsights />
     </div>
   );
 }
